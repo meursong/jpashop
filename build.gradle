@@ -22,6 +22,7 @@ dependencies { //의존관계
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-devtools'
+	implementation group: 'org.javassist', name: 'javassist', version: '3.15.0-GA'
 
 	//sql문 파라미터 트래킹
 	//스프링부트에서 버전별로 맞는 라이브러리 버전들을 지정해놔서
